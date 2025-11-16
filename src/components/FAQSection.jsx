@@ -26,7 +26,10 @@ export function FAQSection() {
   };
 
   return (
-    <div className="w-full max-w-[1200px] mx-auto px-4 lg:px-0 py-12 lg:py-20" id="faqs">
+    <div
+      className="w-full max-w-[1200px] mx-auto px-4 lg:px-0 py-12 lg:py-20"
+      id="faqs"
+    >
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
         {/* Left side - Header */}
         <div className="w-full lg:w-[575px]">
@@ -87,7 +90,10 @@ export function FAQSection() {
                       exit="hidden"
                       variants={contentVariants}
                     >
-                      <div className="pt-2 pb-4">{faq.answer}</div>
+                      <div
+                        className="pt-2 pb-4"
+                        dangerouslySetInnerHTML={{ __html: faq.answer }}
+                      ></div>
                     </motion.div>
                   )}
                 </AnimatePresence>

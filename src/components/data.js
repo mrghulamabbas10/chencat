@@ -146,7 +146,8 @@ export const testimonials = [
   {
     id: 1,
     name: "kitakitsune",
-    quote: "Full-stack engineer focused on tooling and infrastructure.",
+    quote:
+      "Full-stack Web3 engineer with deep experience across smart contracts, backend systems, and high-performance tooling. Specializes in building scalable crypto products and shipping production-ready infrastructure.",
     image: "/images/review.png",
     socials: {
       x: "https://x.com/kitakitsune",
@@ -157,7 +158,8 @@ export const testimonials = [
   {
     id: 2,
     name: "JFRY7",
-    quote: "Web3 developer specializing in automation and AI systems.",
+    quote:
+      "Full-stack developer focused on Python and Telegram bot ecosystems. Builds automated trading tools, on-chain integrations, and AI-powered systems for modern crypto workflows.",
     image: "/images/review2.png",
     socials: {
       x: "https://x.com/jfrysol",
@@ -166,8 +168,9 @@ export const testimonials = [
   },
   {
     id: 3,
-    name: "John Carter",
-    quote: "Smart contracts and blockchain architecture.",
+    name: "Ethan Carter",
+    quote:
+      "Full-stack engineer with a strong command of Python. Creates reliable backend systems, on-chain utilities, and high-efficiency tools for Web3 applications.",
     image: "/images/review3.png",
     socials: {
       x: "https://x.com/eth_ancarter",
@@ -178,32 +181,86 @@ export const testimonials = [
 export const faqs = [
   {
     id: "faq-1",
-    question: "How does the platform work?",
-    answer:
-      "Our platform is designed to keep things simple. You upload your content, configure your settings, and our advanced infrastructure handles the rest. We optimize delivery, manage scalability, and provide real-time analytics so you can focus on what matters most - creating great products.",
+    question: "How can I join the Chencat Labs team?",
+    answer: `
+      We’re always looking for strong developers, researchers, and builders.<br/><br/>
+
+      If you want to join the team, send us:
+      <ul>
+        <li>your portfolio or GitHub</li>
+        <li>a short description of your experience</li>
+        <li>links to your past crypto/Web3 work</li>
+        <li>and what you want to build</li>
+      </ul>
+
+      Email everything to 
+      <a href="mailto:contact@chencatlabs.com">contact@chencatlabs.com</a>.<br/>
+      If your background fits our direction, we’ll reach out with next steps.
+    `,
   },
   {
     id: "faq-2",
-    question: "Do I need technical skills to use it?",
-    answer:
-      "Not at all. The interface is built to be intuitive, so anyone can get started without technical expertise. We provide guided workflows, helpful tooltips, and comprehensive documentation. For those who want more control, we also offer advanced features and API access.",
+    question: "What does Chencat Labs do?",
+    answer: `
+      Chencat Labs is a developer-first collective focused on building the next generation of Web3 products.<br/><br/>
+
+      We unite top-tier engineers, fund their ideas, provide infrastructure, and help them bring high-impact tools to life.<br/><br/>
+
+      Our goal is to support real builders and ship real products — fast, scalable, and built with long-term vision.
+    `,
   },
   {
     id: "faq-3",
-    question: "Is my data secure?",
-    answer:
-      "Yes. We apply encryption and industry-standard protections to every file and transaction. Our infrastructure is compliant with SOC 2, GDPR, and other major security frameworks. We perform regular security audits and use end-to-end encryption for sensitive data.",
+    question: "Do you fund external projects or only internal ones?",
+    answer: `
+      Both.<br/><br/>
+
+      We primarily support internal teams, but we also provide:
+      <ul>
+        <li>early-stage funding</li>
+        <li>technical support</li>
+        <li>incubation</li>
+        <li>audits</li>
+        <li>scaling strategy</li>
+      </ul>
+
+      If your project has strong fundamentals and fits within our ecosystem, we’re open to working together.
+    `,
   },
   {
     id: "faq-4",
-    question: "Can I collaborate with others?",
-    answer:
-      "Absolutely. You can invite teammates, clients, or partners to join your workspace with customizable permissions. Share projects, leave comments, track changes, and work together in real-time. Our collaboration features are designed to streamline teamwork and improve productivity.",
+    question: "What networks and technologies do you work with?",
+    answer: `
+      Our builders work across multiple ecosystems, with a strong focus on:
+      <ul>
+        <li>BNB Chain — tools, automation, infrastructure</li>
+        <li>Solana — trading systems, AI integrations, memecoin tooling</li>
+        <li>EVM — smart contracts, automation, security</li>
+        <li>Python / Node / Rust — backend and on-chain logic</li>
+        <li>AI Agents — analysis, automation, agentic systems</li>
+      </ul>
+
+      We choose the tech depending on what delivers the best real-world results.
+    `,
   },
   {
     id: "faq-5",
-    question: "What kind of support is available?",
-    answer:
-      "We provide a full range of resources including documentation, tutorials, video guides, and a community forum. Our support team is available 24/7 via email and chat. Enterprise customers also get dedicated account managers and priority support with SLA guarantees.",
+    question: "How can I collaborate or partner with Chencat Labs?",
+    answer: `
+      If you’re building something meaningful and want to collaborate — we’re open to it.<br/><br/>
+
+      Whether you're offering data infrastructure, exchange integrations, tooling partnerships, or cross-ecosystem cooperation, send your pitch to:<br/>
+      <a href="mailto:contact@chencatlabs.com">contact@chencatlabs.com</a><br/><br/>
+
+      Include:
+      <ul>
+        <li>what you do</li>
+        <li>how we can collaborate</li>
+        <li>what value you bring</li>
+        <li>links to your product</li>
+      </ul>
+
+      We’re always open to strong partnerships with real utility.
+    `,
   },
 ];

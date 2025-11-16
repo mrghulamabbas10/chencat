@@ -7,7 +7,7 @@ import { useInView } from "react-intersection-observer";
 
 export default function DetailedFeatures() {
   return (
-    <section className="px-4 sm:px-8 lg:px-20 pt-20">
+    <section className="px-4 sm:px-8 lg:px-20 pt-20" id="ExploreEcosystem">
       <div className="max-w-[1320px] mx-auto space-y-0">
         {detailedFeatures.map((feature) => (
           <FeatureCard key={feature.id} feature={feature} />

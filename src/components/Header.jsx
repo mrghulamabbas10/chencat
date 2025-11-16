@@ -12,7 +12,7 @@ export default function HeaderSection() {
     { label: "Features", href: "#features" },
     { label: "Team", href: "#chencat" },
     { label: "FAQs", href: "/faqs" },
-    { label: "Lorem ipsum", href: "#join" },
+    { label: "Join", href: "#join" },
   ];
 
   const container = {
@@ -69,10 +69,20 @@ export default function HeaderSection() {
           {/* CTA button */}
           <motion.a
             variants={child}
-            href="#"
+            href="http://x.com/chencatlabs"
             className="bg-white md:block hidden text-black px-[13px] py-2 rounded-md text-[13px] font-medium hover:bg-[#00E6C5]"
           >
-            Join Telegram
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              height="1.4em"
+              width="1.4em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
+            </svg>
           </motion.a>
 
           {/* Mobile menu */}
@@ -143,10 +153,20 @@ export default function HeaderSection() {
             </div>
 
             <a
-              href="#"
+              href="http://x.com/chencatlabs"
               className="mt-4 block w-fit bg-white text-black px-4 py-2 rounded-md text-sm font-medium hover:bg-[#00E6C5]"
             >
-              Join Telegram
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                height="1.4em"
+                width="1.4em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
+              </svg>
             </a>
           </motion.div>
         </>

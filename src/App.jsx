@@ -21,7 +21,7 @@ import "swiper/css/pagination";
 function App() {
   return (
     <div className="relative">
-      <SplashCursor />
+      {/* <SplashCursor /> */}
       <Hero />
       <Features />
       <About />

@@ -21,7 +21,7 @@ export function Footer() {
               </div>
               <a
                 href="mailto:contact@chencatlabs.com"
-                className="px-2 py-3 text-sm bg-[#00E6C5] text-black rounded"
+                className="px-5 py-3 text-sm bg-[#00E6C5] text-black rounded-full"
               >
                 Apply to join Chencat
               </a>
@@ -137,7 +137,7 @@ export function Footer() {
           {/* Social as */}
           <div className="flex gap-4">
             <a
-              href="#"
+              href="http://x.com/chencatlabs"
               className="opacity-50 hover:opacity-100 transition-opacity"
               aria-label="X (Twitter)"
             >
@@ -153,7 +153,7 @@ export function Footer() {
                 <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
               </svg>
             </a>
-            <a
+            {/* <a
               href="#"
               className="opacity-50 hover:opacity-100 transition-opacity"
               aria-label="YouTube"
@@ -183,7 +183,7 @@ export function Footer() {
               >
                 <path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"></path>
               </svg>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
