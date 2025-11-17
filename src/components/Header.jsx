@@ -10,7 +10,7 @@ export default function HeaderSection() {
   const navLinks = [
     { label: "About", href: "#about" },
     { label: "Features", href: "#features" },
-    { label: "Team", href: "#chencat" },
+    { label: "Team", href: "#team" },
     { label: "FAQs", href: "/faqs" },
     { label: "Join", href: "#join" },
   ];

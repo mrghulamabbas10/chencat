@@ -147,7 +147,7 @@ export const testimonials = [
     id: 1,
     name: "kitakitsune",
     quote:
-      "Full-stack Web3 engineer with deep experience across smart contracts, backend systems, and high-performance tooling. Specializes in building scalable crypto products and shipping production-ready infrastructure.",
+      "Full-stack Web3 engineer with deep experience across smart contracts, backend systems, & high-performance tooling. Specializes in building scalable crypto products & shipping production-ready infrastructure.",
     image: "/images/review.png",
     socials: {
       x: "https://x.com/kitakitsune",
@@ -170,7 +170,7 @@ export const testimonials = [
     id: 3,
     name: "Ethan Carter",
     quote:
-      "Full-stack engineer with a strong command of Python. Creates reliable backend systems, on-chain utilities, and high-efficiency tools for Web3 applications.",
+      "Full-stack engineer with a strong command of Python. Creates reliable backend systems, on-chain utilities, and high-efficiency tools for Web3 applications.",
     image: "/images/review3.png",
     socials: {
       x: "https://x.com/eth_ancarter",

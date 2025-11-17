@@ -29,7 +29,7 @@ function App() {
       <DetailedFeatures />
       <ValuesSection />
       {/* Testimonials Section - Data Loop */}
-      <section className="py-12 lg:py-20 flex justify-center">
+      <section className="py-12 lg:py-20 flex justify-center" id="team">
         <Swiper
           modules={[Autoplay, Pagination]}
           spaceBetween={20}

@@ -63,7 +63,7 @@ export function TestimonialCard({ testimonial }) {
 
       {/* Right side - Content */}
       <motion.div
-        className="w-full lg:w-[800px] h-auto lg:h-[500px] relative border-b border-r border-[#1C1C1C] p-6 lg:p-14"
+        className="w-full lg:w-[800px] h-auto lg:h-[500px] relative border-b border-r border-[#1C1C1C] flex flex-col justify-between p-6 lg:p-14"
         style={{ borderStyle: "dashed", borderWidth: "1px" }}
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
@@ -110,19 +110,18 @@ export function TestimonialCard({ testimonial }) {
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
         >
-          <p className="text-white text-2xl lg:text-[28px] leading-[36.4px] tracking-[-0.28px] max-w-[466px]">
+          <p className="text-white text-xl lg:text-2xl leading-[36.4px] tracking-[-0.28px]">
             {testimonial.quote}
           </p>
         </motion.div>
 
         {/* Name */}
-        <motion.div
-          className="absolute bottom-6 lg:bottom-14 left-6 lg:left-14"
+        <motion.div 
           variants={textVariants}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
         >
-          <p className="text-white text-2xl leading-[33.6px] tracking-[-0.24px]">
+          <p className="text-white text-2xl leading-[33.6px] tracking-[-0.24px] italic">
             {testimonial.name}
           </p>
         </motion.div>
